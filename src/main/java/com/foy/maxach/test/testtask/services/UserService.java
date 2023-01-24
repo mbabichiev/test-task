@@ -24,7 +24,7 @@ public class UserService {
 
 
     private UserRepository userRepository;
-    public static final String ERROR_TEMPLATE = "User with id: '%s' not found";
+    private static final String ERROR_TEMPLATE = "User with id: '%s' not found";
 
 
     public User getById(String id){

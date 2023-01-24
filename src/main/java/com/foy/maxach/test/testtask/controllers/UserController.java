@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 public class UserController {
 
-    public UserService userService;
+    private UserService userService;
 
 
     @GetMapping("/{id}")

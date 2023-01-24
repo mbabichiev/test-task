@@ -20,14 +20,14 @@ public class User {
 
     @Id
     @JsonIgnore
-    String id;
+    private String id;
     @JsonProperty("Firstname")
-    String firstname;
+    private String firstname;
     @JsonProperty("Lastname")
-    String lastname;
+    private String lastname;
     @JsonIgnore
-    String dateOfBirth;
+    private String dateOfBirth;
     @JsonProperty("Age")
-    int age;
+    private int age;
 
 }
